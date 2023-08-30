@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background: url(images/pexels-josh-hild-2422461.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: darken;
+}
+
+.profile-box {
+    width: 25%;
+    background-color: orange;
+    padding: 30px 60px;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+}
+
+.menu-icon {
+    width: 25px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.setting-icon {
+    width: 25px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.profile-img {
+    margin-top: 50px;
+    border-radius: 50%;
+    height: 120px;
+    padding: 4px;
+}
+
+.profile-box h3 {
+    color: white;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.profile-box p {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.profile-bottom {
+    background-color: #fff;
+    padding: 60px 0px;
+    margin-left: -60px;
+    margin-right: -60px;
+    margin-bottom: -30px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+
+.profile-bottom p {
+    color: #999;
+}
+
+.profile-bottom a {
+    text-decoration: none;
+    color: orange;
+}
+
+.profile-bottom a .fa-solid {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.profile-box button {
+    background-color: #fff;
+    color: #ff574a;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(246, 158, 26, 0.5);
+    border-radius: 30px;
+    padding: 15px 60px;
+    cursor: pointer;
+    margin-bottom: -60px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.social-media .fa-brands{
+    width: 20px ;
+    margin: 30px 5px;
+    color: #fff;
+}
